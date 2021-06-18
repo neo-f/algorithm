@@ -8,6 +8,12 @@ type runeStack []rune
 func (s *runeStack) Push(r rune) {
 	*s = append(*s, r)
 }
+func (s *runeStack) Top() rune {
+	if len(*s) == 0 {
+		return 0
+	}
+	return (*s)[len(*s)-1]
+}
 func (s *runeStack) Pop() (r rune, ok bool) {
 	length := len(*s)
 	if length == 0 {
@@ -221,14 +227,13 @@ func (d *MyCircularDeque) IsFull() bool {
 	return d.size == d.cap
 }
 
-
 // 141. 环形链表 https://leetcode-cn.com/problems/linked-list-cycle/
 func hasCycle(head *ListNode) bool {
 	fast := head
-	for fast != nil && fast.Next != nil{
+	for fast != nil && fast.Next != nil {
 		fast = fast.Next.Next
 		head = head.Next
-		if fast == head{
+		if fast == head {
 			return true
 		}
 	}
