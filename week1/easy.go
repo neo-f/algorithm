@@ -128,5 +128,3 @@ func plusOne(digits []int) []int {
 	}
 	return digits
 }
-
-// Medium
