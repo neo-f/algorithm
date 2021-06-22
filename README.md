@@ -15,7 +15,7 @@
 | 11  | [week1-1](week1-1) | [141. 环形链表](week1-1/lc141.go)                    | Medium | ✅     |              |
 | 12  | [week1-1](week1-1) | [227. 基本计算器 II](week1-1/lc227.go)               | Hard   | ✅     |              |
 | 13  | [week1-1](week1-1) | [560. 和为K的子数组](week1-1/lc560.go)               | Hard   | ✅     |              |
-| 14  | [week1-1](week1-1) | [25. K 个一组翻转链表](week1-1/lc25.go)              | Hard   | ⬜️     |              |
+| 14  | [week1-1](week1-1) | [25. K 个一组翻转链表](week1-1/lc25.go)              | Hard   | ✅     |              |
 |     |                    |                                                      |        |       |              |
 | 15  | [week1-2](week1-2) | [1248. 统计「优美子数组」](week1-2/lc1248.go)        | Medium | ⬜️     | 前缀和       |
 | 16  | [week1-2](week1-2) | [304. 二维区域和检索 - 矩阵不可变](week1-2/lc304.go) | Medium | ⬜️     | 二维前缀和   |
