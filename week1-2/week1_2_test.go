@@ -1,8 +1,13 @@
 package week12
 
-import "testing"
+import (
+	"github.com/stretchr/testify/assert"
+	"testing"
+)
 
-func TestLC1(t *testing.T)    {}
+func TestLC1(t *testing.T) {
+	assert.Equal(t, numberOfSubarrays([]int{1, 1, 2, 1, 1}, 3), 2)
+}
 func TestLC11(t *testing.T)   {}
 func TestLC15(t *testing.T)   {}
 func TestLC42(t *testing.T)   {}
