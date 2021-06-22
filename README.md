@@ -23,7 +23,7 @@
 | 18  | [week1-2](week1-2) | [53. 最大子序和](week1-2/lc53.go)                    | Easy   | ✅     | 前缀和     |
 | 20  | [week1-2](week1-2) | [167. 两数之和 II - 输入有序数组](week1-2/lc167.go)  | Easy   | ✅     | 双指针     |
 | 19  | [week1-2](week1-2) | [1. 两数之和](week1-2/lc1.go)                        | Easy   | ✅     | 双指针     |
-| 21  | [week1-2](week1-2) | [15. 三数之和](week1-2/lc15.go)                      | Medium | ⬜️     | 双指针     |
+| 21  | [week1-2](week1-2) | [15. 三数之和](week1-2/lc15.go)                      | Medium | ✅     | 双指针     |
 | 22  | [week1-2](week1-2) | [11. 盛最多水的容器](week1-2/lc11.go)                | Medium | ⬜️     | 双指针     |
 | 23  | [week1-2](week1-2) | [84. 柱状图中最大的矩形](week1-2/lc84.go)            | Hard   | ⬜️     | 单调栈     |
 | 24  | [week1-2](week1-2) | **[239. 滑动窗口最大值](week1-2/lc239.go)**          | Hard   | ⬜️     | 单调队列   |
