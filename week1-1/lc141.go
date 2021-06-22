@@ -1,4 +1,4 @@
-package week1_1
+package week11
 
 // 141. 环形链表 https://leetcode-cn.com/problems/linked-list-cycle/
 func hasCycle(head *ListNode) bool {

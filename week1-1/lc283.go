@@ -1,4 +1,4 @@
-package week1_1
+package week11
 
 // 283. 移动零 https://leetcode-cn.com/problems/move-zeroes/
 func moveZeroes(nums []int) {

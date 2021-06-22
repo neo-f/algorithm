@@ -1,4 +1,4 @@
-package week1_1
+package week11
 
 // 88. 合并两个有序数组 https://leetcode-cn.com/problems/merge-sorted-array/submissions/
 func merge(nums1 []int, m int, nums2 []int, n int) {

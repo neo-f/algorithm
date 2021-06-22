@@ -1,4 +1,4 @@
-package week1_1
+package week11
 
 // 206. 反转链表 https://leetcode-cn.com/problems/reverse-linked-list/
 func reverseList(head *ListNode) *ListNode {

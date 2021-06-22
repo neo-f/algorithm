@@ -1,4 +1,4 @@
-package week1_1
+package week11
 
 // 560. 和为K的子数组 https://leetcode-cn.com/problems/subarray-sum-equals-k/
 func subarraySum(nums []int, k int) int {
