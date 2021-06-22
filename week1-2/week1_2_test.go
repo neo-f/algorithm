@@ -6,6 +6,7 @@ import (
 )
 
 func TestLC1(t *testing.T) {
+	assert.Equal(t, twoSum([]int{3,2,4}, 6), []int{1, 2})
 }
 func TestLC11(t *testing.T) {}
 func TestLC15(t *testing.T) {}
