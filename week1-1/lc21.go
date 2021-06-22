@@ -1,5 +1,7 @@
 package week11
 
+import . "algorithm-go/utils"
+
 // 21. 合并两个有序链表 https://leetcode-cn.com/problems/merge-two-sorted-lists/
 // 输入：l1 = [1,2,4], l2 = [1,3,4]
 // 输出：[1,1,2,3,4,4]

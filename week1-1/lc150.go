@@ -1,6 +1,7 @@
 package week11
 
 import "strconv"
+import . "algorithm-go/utils"
 
 //150. 逆波兰表达式求值 https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/
 //输入：tokens = ["2","1","+","3","*"]
@@ -23,7 +24,7 @@ func calc(b, a, op string) int {
 }
 
 func evalRPN(tokens []string) int {
-	stack := stringStack{}
+	stack := StringStack{}
 	for _, token := range tokens {
 		switch token {
 		case "+", "-", "*", "/":

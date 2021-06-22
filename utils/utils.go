@@ -1,4 +1,4 @@
-package week11
+package utils
 
 import (
 	"strconv"
@@ -37,36 +37,46 @@ func SliceToList(slice []int) *ListNode {
 	return head.Next
 }
 
-// rune栈
-type runeStack []rune
+// RuneStack rune栈
+type RuneStack []rune
 
-func (s *runeStack) Push(r rune) {
+func (s *RuneStack) Push(r rune) {
 	*s = append(*s, r)
 }
-func (s *runeStack) Top() rune {
+func (s *RuneStack) Top() rune {
 	if len(*s) == 0 {
 		return 0
 	}
 	return (*s)[len(*s)-1]
 }
-func (s *runeStack) Pop() (r rune, ok bool) {
+func (s *RuneStack) Pop() rune {
 	length := len(*s)
 	if length == 0 {
-		return 0, false
+		return 0
 	}
-	r = (*s)[length-1]
+	r := (*s)[length-1]
 	*s = (*s)[:length-1]
-	return r, true
+	return r
 }
 
-type stringStack []string
+// StringStack string栈
+type StringStack []string
 
-func (s *stringStack) Push(r string) {
+func (s *StringStack) Push(r string) {
 	*s = append(*s, r)
 }
-func (s *stringStack) Pop() string {
-	idx := len(*s) - 1
-	r := (*s)[idx]
-	*s = (*s)[:idx]
+func (s *StringStack) Top() string {
+	if len(*s) == 0 {
+		return ""
+	}
+	return (*s)[len(*s)-1]
+}
+func (s *StringStack) Pop() string {
+	length := len(*s)
+	if length == 0 {
+		return ""
+	}
+	r := (*s)[length-1]
+	*s = (*s)[:length-1]
 	return r
 }

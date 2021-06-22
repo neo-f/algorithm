@@ -1,6 +1,7 @@
 package week11
 
 import "strconv"
+import . "algorithm-go/utils"
 
 // 224. 基本计算器    https://leetcode-cn.com/problems/basic-calculator/
 // 227. 基本计算器 II https://leetcode-cn.com/problems/basic-calculator-ii/
@@ -8,7 +9,7 @@ func calculate(s string) int {
 	// 转换为逆波兰表达式
 	var tokens []string
 	// 准备压入符号的栈
-	ops := runeStack{}
+	ops := RuneStack{}
 
 	// 处理的数值
 	var parsingVal int
@@ -37,8 +38,7 @@ func calculate(s string) int {
 		if char == ')' {
 			// 持续出栈，直到左括号，并把栈内的符号入结果
 			for ops.Top() != '(' {
-				op, _ := ops.Pop()
-				tokens = append(tokens, string(op))
+				tokens = append(tokens, string(ops.Pop()))
 			}
 			// 多一个左括号
 			ops.Pop()
@@ -48,8 +48,7 @@ func calculate(s string) int {
 		if char == '+' || char == '-' || char == '*' || char == '/' {
 			// 如果运算优先级比较高的话，那么可以直接入结果，否则压入运算符栈内
 			for len(ops) != 0 && getRank(ops.Top()) >= getRank(char) {
-				op, _ := ops.Pop()
-				tokens = append(tokens, string(op))
+				tokens = append(tokens, string(ops.Pop()))
 			}
 			ops.Push(char)
 			continue
@@ -62,8 +61,7 @@ func calculate(s string) int {
 	}
 	// 检查栈中剩余的元素
 	for len(ops) != 0 {
-		op, _ := ops.Pop()
-		tokens = append(tokens, string(op))
+		tokens = append(tokens, string(ops.Pop()))
 	}
 	return evalRPN(tokens)
 }

@@ -1,6 +1,7 @@
 package week11
 
 import (
+	"algorithm-go/utils"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
@@ -42,16 +43,16 @@ func TestMoveZeroes(t *testing.T) {
 }
 
 func TestReverseList(t *testing.T) {
-	array := SliceToList([]int{1, 2, 3})
-	assert.Equal(t, reverseList(array), SliceToList([]int{3, 2, 1}))
+	array := utils.SliceToList([]int{1, 2, 3})
+	assert.Equal(t, reverseList(array), utils.SliceToList([]int{3, 2, 1}))
 }
 
 func TestMergeTwoLists(t *testing.T) {
-	l1 := SliceToList([]int{1, 3, 5})
-	l2 := SliceToList([]int{2, 4, 6})
+	l1 := utils.SliceToList([]int{1, 3, 5})
+	l2 := utils.SliceToList([]int{2, 4, 6})
 	r := mergeTwoLists(l1, l2)
 	t.Log(l1, l2, r)
-	assert.Equal(t, r, SliceToList([]int{1, 2, 3, 4, 5, 6}))
+	assert.Equal(t, r, utils.SliceToList([]int{1, 2, 3, 4, 5, 6}))
 }
 
 func TestPlusOne(t *testing.T) {
@@ -116,4 +117,19 @@ func TestCalculate(t *testing.T) {
 
 func TestSubarraySum(t *testing.T) {
 	assert.Equal(t, subarraySum([]int{1, 1, 1}, 2), 2)
+}
+
+func TestReverseKGroup(t *testing.T) {
+	c1 := utils.SliceToList([]int{1, 2, 3, 4, 5, 6})
+	e1 := utils.SliceToList([]int{2, 1, 4, 3, 6, 5})
+	assert.Equal(t, reverseKGroup(c1, 2), e1)
+	c2 := utils.SliceToList([]int{1, 2, 3, 4, 5, 6})
+	e2 := utils.SliceToList([]int{4, 3, 2, 1, 5, 6})
+	assert.Equal(t, reverseKGroup(c2, 4), e2)
+	c3 := utils.SliceToList([]int{1, 2, 3, 4, 5})
+	e3 := utils.SliceToList([]int{2, 1, 4, 3, 5})
+	assert.Equal(t, reverseKGroup(c3, 2), e3)
+	c4 := utils.SliceToList([]int{1, 2, 3, 4, 5})
+	e4 := utils.SliceToList([]int{1, 2, 3, 4, 5})
+	assert.Equal(t, reverseKGroup(c4, 1), e4)
 }

@@ -1,5 +1,7 @@
 package week11
 
+import . "algorithm-go/utils"
+
 // 141. 环形链表 https://leetcode-cn.com/problems/linked-list-cycle/
 func hasCycle(head *ListNode) bool {
 	fast := head

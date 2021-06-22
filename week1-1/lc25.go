@@ -1,5 +1,7 @@
 package week11
 
+import . "algorithm-go/utils"
+
 // 25. K 个一组翻转链表 https://leetcode-cn.com/problems/reverse-nodes-in-k-group/
 func reverseKGroup(head *ListNode, k int) *ListNode {
 	protectNode := &ListNode{Next: head}
