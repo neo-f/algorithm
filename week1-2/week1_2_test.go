@@ -7,10 +7,12 @@ import (
 
 func TestLC1(t *testing.T) {
 }
-func TestLC11(t *testing.T)  {}
-func TestLC15(t *testing.T)  {}
-func TestLC42(t *testing.T)  {}
-func TestLC53(t *testing.T)  {}
+func TestLC11(t *testing.T) {}
+func TestLC15(t *testing.T) {}
+func TestLC42(t *testing.T) {}
+func TestLC53(t *testing.T) {
+	assert.Equal(t, maxSubArray([]int{-2, 1, -3, 4, -1, 2, 1, -5, 4}), 6)
+}
 func TestLC84(t *testing.T)  {}
 func TestLC167(t *testing.T) {}
 func TestLC239(t *testing.T) {}
