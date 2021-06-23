@@ -8,7 +8,9 @@ import (
 func TestLC1(t *testing.T) {
 	assert.Equal(t, twoSum([]int{3, 2, 4}, 6), []int{1, 2})
 }
-func TestLC11(t *testing.T) {}
+func TestLC11(t *testing.T) {
+	assert.Equal(t, maxArea([]int{1, 8, 6, 2, 5, 4, 8, 3, 7}), 49)
+}
 func TestLC15(t *testing.T) {
 	case1 := []int{-1, 0, 1, 2, -1, -4}
 	expect1 := [][]int{{-1, -1, 2}, {-1, 0, 1}}
