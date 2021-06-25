@@ -20,7 +20,7 @@ func (l *ListNode) String() string {
 	return strings.Join(ss, "->")
 }
 
-// SliceToList 数组切片转单链表
+// SliceToList 数组切片转单链表.
 func SliceToList(slice []int) *ListNode {
 	head := &ListNode{
 		Val:  0,
@@ -59,7 +59,7 @@ func (s *RuneStack) Pop() rune {
 	return r
 }
 
-// StringStack string栈
+// StringStack string栈.
 type StringStack []string
 
 func (s *StringStack) Push(r string) {
@@ -75,6 +75,30 @@ func (s *StringStack) Pop() string {
 	length := len(*s)
 	if length == 0 {
 		return ""
+	}
+	r := (*s)[length-1]
+	*s = (*s)[:length-1]
+	return r
+}
+
+type IntStack []int
+
+func (s *IntStack) Push(r int) {
+	*s = append(*s, r)
+}
+func (s *IntStack) Top() int {
+	if len(*s) == 0 {
+		return 0
+	}
+	return (*s)[len(*s)-1]
+}
+func (s *IntStack) IsEmpty() bool {
+	return len(*s) == 0
+}
+func (s *IntStack) Pop() int {
+	length := len(*s)
+	if length == 0 {
+		return 0
 	}
 	r := (*s)[length-1]
 	*s = (*s)[:length-1]
