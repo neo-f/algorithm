@@ -27,7 +27,9 @@ func TestLC167(t *testing.T) {
 	assert.Equal(t, twoSum2([]int{2, 7, 11, 15}, 9), []int{1, 2})
 	assert.Equal(t, twoSum2([]int{2, 7, 11, 15}, 13), []int{1, 3})
 }
-func TestLC239(t *testing.T) {}
+func TestLC239(t *testing.T) {
+	assert.Equal(t, maxSlidingWindow([]int{1, 3, -1, -3, 5, 3, 6, 7}, 3), []int{3, 3, 5, 5, 6, 7})
+}
 func TestLC304(t *testing.T) {}
 func TestLC560(t *testing.T) {}
 func TestLC1109(t *testing.T) {
