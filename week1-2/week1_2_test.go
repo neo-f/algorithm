@@ -16,7 +16,10 @@ func TestLC15(t *testing.T) {
 	expect1 := [][]int{{-1, -1, 2}, {-1, 0, 1}}
 	assert.Equal(t, threeSum(case1), expect1)
 }
-func TestLC42(t *testing.T) {}
+func TestLC42(t *testing.T) {
+	assert.Equal(t, trap([]int{0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1}), 6)
+	assert.Equal(t, trap([]int{4, 2, 0, 3, 2, 5}), 9)
+}
 func TestLC53(t *testing.T) {
 	assert.Equal(t, maxSubArray([]int{-2, 1, -3, 4, -1, 2, 1, -5, 4}), 6)
 }

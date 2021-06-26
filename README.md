@@ -27,5 +27,5 @@
 | 22  | [week1-2](week1-2) | [11. 盛最多水的容器](week1-2/lc11.go)                | Medium | ✅     | 双指针     |
 | 23  | [week1-2](week1-2) | [84. 柱状图中最大的矩形](week1-2/lc84.go)            | Hard   | ✅     | 单调栈     |
 | 24  | [week1-2](week1-2) | **[239. 滑动窗口最大值](week1-2/lc239.go)**          | Hard   | ✅     | 单调队列   |
-| 25  | [week1-2](week1-2) | [42. 接雨水](week1-2/lc42.go)                        | Hard   | ⬜️     | 双指针     |
+| 25  | [week1-2](week1-2) | [42. 接雨水](week1-2/lc42.go)                        | Hard   | ✅     | 双指针     |
 | 26  | [week1-2](week1-2) | [560. 和为K的子数组](week1-2/lc560.go)               | Medium | ✅     | 双指针     |
