@@ -31,7 +31,9 @@ func TestLC239(t *testing.T) {
 	assert.Equal(t, maxSlidingWindow([]int{1, 3, -1, -3, 5, 3, 6, 7}, 3), []int{3, 3, 5, 5, 6, 7})
 }
 func TestLC304(t *testing.T) {}
-func TestLC560(t *testing.T) {}
+func TestLC560(t *testing.T) {
+	assert.Equal(t, subarraySum([]int{1, 1, 1}, 2), 2)
+}
 func TestLC1109(t *testing.T) {
 	assert.Equal(t, corpFlightBookings([][]int{{1, 2, 10}, {2, 3, 20}, {2, 5, 25}}, 5), []int{10, 55, 45, 25, 25})
 }
