@@ -6,6 +6,7 @@ import "math"
 
 func maxSubArray(nums []int) int {
 	acc := make([]int, len(nums)+1)
+
 	for i := 1; i <= len(nums); i++ {
 		acc[i] = acc[i-1] + nums[i-1]
 	}
