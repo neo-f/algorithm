@@ -31,9 +31,9 @@
 | 26  | [week1-2](week1-2) | [560. 和为K的子数组](week1-2/lc560.go)               | Medium | ✅     | 双指针     |
 | --- |
 | 27  | [week2-1](week2-1) | [874. 模拟行走机器人](week2-1/lc874.go)              | Easy   | ✅     | 映射       |
-| 28  | [week2-1](week2-1) | [49. 字母异位词分组](week2-1/lc49.go)                | Medium |       | 映射       |
-| 29  | [week2-1](week2-1) | [30. 串联所有单词的子串](week2-1/lc30.go)            | Hard   |       | 映射       |
-| 30  | [week2-1](week2-1) | [146. LRU 缓存机制](week2-1/lc146.go)                | Medium |       | 映射       |
+| 28  | [week2-1](week2-1) | [49. 字母异位词分组](week2-1/lc49.go)                | Medium | ✅     | 映射       |
+| 29  | [week2-1](week2-1) | [30. 串联所有单词的子串](week2-1/lc30.go)            | Hard   | ✅     | 映射       |
+| 30  | [week2-1](week2-1) | [146. LRU 缓存机制](week2-1/lc146.go)                | Medium | ✅     | 映射       |
 | --- |
 | 31  | [week2-2](week2-2) | [78. 子集](week2-2/lc78.go)                          | Medium |       | 递归       |
 | 32  | [week2-2](week2-2) | [77. 组合](week2-2/lc77.go)                          | Medium |       | 递归       |
