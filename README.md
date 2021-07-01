@@ -43,4 +43,4 @@
 | 36  | [week2-2](week2-2) | [226. 翻转二叉树](week2-2/lc226.go)                  | Easy   | ✅     | 树         |
 | 37  | [week2-2](week2-2) | [98. 验证二叉搜索树](week2-2/lc98.go)                | Medium | ✅     | 树         |
 | 38  | [week2-2](week2-2) | [50. Pow(x, n)](week2-2/lc50.go)                     | Medium | ✅     | 分治       |
-| 39  | [week2-2](week2-2) | [22. 括号生成](week2-2/lc22.go)                      | Medium |       | 分治       |
+| 39  | [week2-2](week2-2) | [22. 括号生成](week2-2/lc22.go)                      | Medium | ✅     | 分治       |
