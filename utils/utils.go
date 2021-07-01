@@ -117,3 +117,10 @@ func MinInt(i, j int) int {
 	}
 	return j
 }
+
+// TreeNode 树
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
