@@ -64,6 +64,7 @@
 | 52  | [week3-2](week3-2) | [433.最小基因变化](week3-2/433.%20最小基因变化/solution.go)          | Medium | ✅     |                                  |
 | 53  | [week3-2](week3-2) | [329. 矩阵中的最长递增路径](week3-2/433.%20最小基因变化/solution.go) | Hard   | ✅     | DFS/BFS                          |
 | --- |
-| 54  | [week4](week4)     | [23. 合并K个升序链表](week4/23.%20合并K个升序链表/solution.go)       | Medium | ✅     |                                  |
+| 54  | [week4](week4)     | [23.合并K个升序链表](week4/23.%20合并K个升序链表/solution.go)        | Medium | ✅     |                                  |
 | 55  | [week4](week4)     | [295.数据流的中位数](week4/295.%20数据流的中位数/solutions.go)       | Hard   | ✅     |                                  |
-| 56  | [week4](week4)     | [355.设计推特](week4/355.%20设计推特/solution.go)                    | Medium | ✅     |                                  |
+| 57  | [week4](week4)     | [355.设计推特](week4/355.%20设计推特/solution.go)                    | Medium | ✅     |                                  |
+| 56  | [week4](week4)     | [239.滑动窗口最大值](week4/239.%20滑动窗口最大值/solution.go)        | Hard   | ✅     |                                  |
