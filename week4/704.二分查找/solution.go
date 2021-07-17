@@ -1,3 +1,4 @@
+package main
 
 func search(nums []int, target int) int {
 	left, right := -1, len(nums)
