@@ -72,3 +72,6 @@
 | 56  | [week4](week4)     | [410.分割数组的最大值](week4/410.分割数组的最大值/solution.go)                                                   | Hard   | ✅     |                                  |
 | 56  | [week4](week4)     | [162.寻找峰值](week4/162.寻找峰值/solution.go)                                                                   | Hard   | ✅     |                                  |
 | 56  | [week4](week4)     | [34.在排序数组中查找元素的第一个和最后一个位置](week4/34.在排序数组中查找元素的第一个和最后一个位置/solution.go) | Hard   | ✅     |                                  |
+| --- |
+| 57  | [week5](week5)     | [912.排序数组](week5/912.排序数组/solution.go)                                                                   | Medium | ✅     |                                  |
+| 57  | [week5](week5)     | [1122.数组的相对排序](week5/1122.数组的相对排序/solution.go)                                                     | Easy   | ✅     |                                  |
