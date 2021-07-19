@@ -1,8 +1,8 @@
 # Leetcode Solutions
 
-> Generate Time: 2021-07-20	(Total Solved: 66)
+> Generate Time: 2021-07-20	(Total Solved: 79)
 > + Python Solutions: 1
-> + Go Solutions: 69
+> + Go Solutions: 70
 ***
 ## Week1
 
@@ -102,5 +102,18 @@
 |---|---|---|---|---|
 |1|[0912-排序数组](https://leetcode-cn.com/problems/sort-an-array)|🟨|`数组` `分治` `桶排序` `计数排序` `基数排序` `排序` `堆（优先队列）` `归并排序`|[Go](solutions/0912-排序数组/solution1.go)|
 |2|[1122-数组的相对排序](https://leetcode-cn.com/problems/relative-sort-array)|🟩|`数组` `哈希表` `计数排序` `排序`|[Go](solutions/1122-数组的相对排序/solution1.go)|
+|3|[0056-合并区间](https://leetcode-cn.com/problems/merge-intervals)|🟨|`数组` `排序`|[Go](solutions/0056-合并区间/solution1.go)|
+|4|[0215-数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array)|🟨|`数组` `分治` `快速选择` `排序` `堆（优先队列）`||
+|5|[0493-翻转对](https://leetcode-cn.com/problems/reverse-pairs)|🟥|`树状数组` `线段树` `数组` `二分查找` `分治` `有序集合` `归并排序`||
+|6|[0322-零钱兑换](https://leetcode-cn.com/problems/coin-change)|🟨|`广度优先搜索` `数组` `动态规划`||
+|7|[0860-柠檬水找零](https://leetcode-cn.com/problems/lemonade-change)|🟩|`贪心` `数组`||
+|8|[0455-分发饼干](https://leetcode-cn.com/problems/assign-cookies)|🟩|`贪心` `数组` `排序`||
+|9|[0122-买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii)|🟩|`贪心` `数组` `动态规划`||
+|10|[0045-跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii)|🟨|`贪心` `数组` `动态规划`||
+|11|[1665-完成所有任务的最少初始能量](https://leetcode-cn.com/problems/minimum-initial-energy-to-finish-tasks)|🟥|`贪心` `数组` `排序`||
+|12|[1011-在 D 天内送达包裹的能力](https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days)|🟨|`贪心` `数组` `二分查找`||
+|13|[0911-在线选举](https://leetcode-cn.com/problems/online-election)|🟨|`设计` `数组` `哈希表` `二分查找`||
+|14|[0875-爱吃香蕉的珂珂](https://leetcode-cn.com/problems/koko-eating-bananas)|🟨|`数组` `二分查找`||
+|15|[0327-区间和的个数](https://leetcode-cn.com/problems/count-of-range-sum)|🟥|`树状数组` `线段树` `数组` `二分查找` `分治` `有序集合` `归并排序`||
 
 

@@ -9,7 +9,7 @@ GROUPS = dict(
     week2="874,49,30,146,78,77,46,111,104,226,98,50,22",
     week3="106,210,130,94,589,429,297,105,1245,236,684,207,17,51,200,433,329",
     week4="23,295,355,239,704,410,162,34",
-    week5="912,1122",
+    week5="912,1122,56,215,493,322,860,455,122,45,1665,1011,911,875,327",
 )
 
 TITLE = "# Leetcode Solutions\n\n"
@@ -31,20 +31,7 @@ class Item:
 STATISTIC = {"solved": 0, "lang": {}}
 
 
-def main():
-    content = ""
-    for week, nums in GROUPS.items():
-        items = _parse_week(nums)
-        content += _gen_week(week, items)
-
-    with open("README.md", "w") as readme:
-        readme.write(TITLE)
-        # 统计信息
-        readme.write(_gen_statistic())
-        readme.write(content)
-
-
-def _parse_week(nums: str):
+def _parse_week(nums: str) -> List[Item]:
     items = []
     for num in nums.split(","):
         qid = num.zfill(4)
@@ -64,25 +51,19 @@ def _parse_week(nums: str):
     return items
 
 
-EXT = {
-    "go": "Go",
-    "py": "Python",
-    "rs": "Rust",
-    "js": "Javascript",
-}
-DIFFICULTY = {
-    "EASY": "🟩",
-    "MEDIUM": "🟨",
-    "HARD": "🟥",
-}
-
-
 def _gen_statistic() -> str:
     content = ""
     content += f"> Generate Time: {datetime.date.today()}\t(Total Solved: {STATISTIC['solved']})\n"
     for lang, num in STATISTIC["lang"].items():
         content += f"> + {lang} Solutions: {num}\n"
     return content
+
+
+DIFFICULTY = {
+    "EASY": "🟩",
+    "MEDIUM": "🟨",
+    "HARD": "🟥",
+}
 
 
 def _gen_week(week: str, items: List[Item]) -> str:
@@ -101,6 +82,14 @@ def _gen_week(week: str, items: List[Item]) -> str:
         ret += f"|{'|'.join(line)}|\n"
     ret += "\n\n"
     return ret
+
+
+EXT = {
+    "go": "Go",
+    "py": "Python",
+    "rs": "Rust",
+    "js": "Javascript",
+}
 
 
 def _gen_solutions_str(solutions_dir: str) -> str:
@@ -125,6 +114,18 @@ def _gen_solutions_str(solutions_dir: str) -> str:
                 ret.append(f"[{lang}-{idx}]({href})")
 
     return " ".join(ret)
+
+
+def main():
+    content = ""
+    for week, nums in GROUPS.items():
+        content += _gen_week(week, _parse_week(nums))
+
+    with open("README.md", "w") as readme:
+        readme.write(TITLE)
+        # 统计信息
+        readme.write(_gen_statistic())
+        readme.write(content)
 
 
 if __name__ == "__main__":
