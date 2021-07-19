@@ -1,13 +1,14 @@
 # Leetcode Solutions
 
-> Generate Time: 2021-07-19	(Total Solved: 66)
+> Generate Time: 2021-07-20	(Total Solved: 66)
+> + Python Solutions: 1
 > + Go Solutions: 69
 ***
 ## Week1
 
 |No.|题目|难度|Tags|Solutions|
 |---|---|---|---|---|
-|1|[0088-合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array)|🟩|`数组` `双指针` `排序`|[Go](solutions/0088-合并两个有序数组/solution1.go)|
+|1|[0088-合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array)|🟩|`数组` `双指针` `排序`|[Python](solutions/0088-合并两个有序数组/solution1.py) [Go](solutions/0088-合并两个有序数组/solution1.go)|
 |2|[0021-合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists)|🟩|`递归` `链表`|[Go](solutions/0021-合并两个有序链表/solution1.go)|
 |3|[0026-删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array)|🟩|`数组` `双指针`|[Go](solutions/0026-删除有序数组中的重复项/solution1.go)|
 |4|[0283-移动零](https://leetcode-cn.com/problems/move-zeroes)|🟩|`数组` `双指针`|[Go](solutions/0283-移动零/solution1.go)|

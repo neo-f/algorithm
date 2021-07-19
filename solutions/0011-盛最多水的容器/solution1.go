@@ -1,6 +1,4 @@
-package week12
-
-import . "algorithm-go/utils"
+package main
 
 func maxArea(height []int) int {
 	i, j := 0, len(height)-1
@@ -24,4 +22,17 @@ func maxArea(height []int) int {
 		}
 	}
 	return area
+}
+
+func MaxInt(a, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}
+func MinInt(a, b int) int {
+	if a > b {
+		return b
+	}
+	return a
 }
