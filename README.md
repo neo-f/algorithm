@@ -1,7 +1,6 @@
 # Leetcode Solutions
 
-> ### Generated: 2021-07-19
-> ### Total Solved: 66
+> Generate Time: 2021-07-19	(Total Solved: 66)
 > + Go Solutions: 69
 ***
 ## Week1

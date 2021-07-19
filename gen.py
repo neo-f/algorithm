@@ -79,8 +79,7 @@ DIFFICULTY = {
 
 def _gen_statistic() -> str:
     content = ""
-    content += f"> ### Generated: {datetime.date.today()}\n"
-    content += f"> ### Total Solved: {STATISTIC['solved']}\n"
+    content += f"> Generate Time: {datetime.date.today()}\t(Total Solved: {STATISTIC['solved']})\n"
     for lang, num in STATISTIC["lang"].items():
         content += f"> + {lang} Solutions: {num}\n"
     return content
