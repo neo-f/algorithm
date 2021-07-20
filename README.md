@@ -2,7 +2,7 @@
 
 > Generate Time: 2021-07-20	(Total Solved: 79)
 > + Python Solutions: 1
-> + Go Solutions: 70
+> + Go Solutions: 72
 ***
 ## Week1
 
@@ -100,10 +100,10 @@
 
 |No.|题目|难度|Tags|Solutions|
 |---|---|---|---|---|
-|1|[0912-排序数组](https://leetcode-cn.com/problems/sort-an-array)|🟨|`数组` `分治` `桶排序` `计数排序` `基数排序` `排序` `堆（优先队列）` `归并排序`|[Go](solutions/0912-排序数组/solution1.go)|
+|1|[0912-排序数组](https://leetcode-cn.com/problems/sort-an-array)|🟨|`数组` `分治` `桶排序` `计数排序` `基数排序` `排序` `堆（优先队列）` `归并排序`|[Go-1](solutions/0912-排序数组/solution1.go) [Go-2](solutions/0912-排序数组/solution2.go)|
 |2|[1122-数组的相对排序](https://leetcode-cn.com/problems/relative-sort-array)|🟩|`数组` `哈希表` `计数排序` `排序`|[Go](solutions/1122-数组的相对排序/solution1.go)|
 |3|[0056-合并区间](https://leetcode-cn.com/problems/merge-intervals)|🟨|`数组` `排序`|[Go](solutions/0056-合并区间/solution1.go)|
-|4|[0215-数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array)|🟨|`数组` `分治` `快速选择` `排序` `堆（优先队列）`||
+|4|[0215-数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array)|🟨|`数组` `分治` `快速选择` `排序` `堆（优先队列）`|[Go](solutions/0215-数组中的第K个最大元素/solution1.go)|
 |5|[0493-翻转对](https://leetcode-cn.com/problems/reverse-pairs)|🟥|`树状数组` `线段树` `数组` `二分查找` `分治` `有序集合` `归并排序`||
 |6|[0322-零钱兑换](https://leetcode-cn.com/problems/coin-change)|🟨|`广度优先搜索` `数组` `动态规划`||
 |7|[0860-柠檬水找零](https://leetcode-cn.com/problems/lemonade-change)|🟩|`贪心` `数组`||

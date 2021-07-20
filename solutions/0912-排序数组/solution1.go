@@ -7,7 +7,6 @@ import (
 
 func sortArray(nums []int) []int {
 	quickSort(nums, 0, len(nums)-1)
-	// mergeSort(nums, 0, len(nums)-1)
 	return nums
 }
 
@@ -39,39 +38,4 @@ func partition(nums []int, l, r int) int {
 		}
 	}
 	return r
-}
-
-// 归并排序
-
-func mergeSort(nums []int, left, right int) {
-	if left >= right {
-		return
-	}
-	mid := (left + right) >> 1
-	mergeSort(nums, left, mid)
-	mergeSort(nums, mid+1, right)
-	merge(nums, left, mid, right)
-}
-
-func merge(nums []int, left, mid, right int) {
-	var tmp []int
-	i, j := left, mid+1
-	for i <= mid && j <= right {
-		if nums[i] < nums[j] {
-			tmp = append(tmp, nums[i])
-			i++
-		} else {
-			tmp = append(tmp, nums[j])
-			j++
-		}
-	}
-	for i <= mid {
-		tmp = append(tmp, nums[i])
-		i++
-	}
-	for j <= right {
-		tmp = append(tmp, nums[j])
-		j++
-	}
-	copy(nums[left:right+1], tmp)
 }
