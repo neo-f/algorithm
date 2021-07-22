@@ -2,7 +2,7 @@
 
 > Generate Time: 2021-07-22	(Total Solved: 79)
 > + Python Solutions: 1
-> + Go Solutions: 73
+> + Go Solutions: 74
 ***
 ## Week1
 
@@ -113,7 +113,7 @@
 |11|[1665-完成所有任务的最少初始能量](https://leetcode-cn.com/problems/minimum-initial-energy-to-finish-tasks)|🟥|`贪心` `数组` `排序`||
 |12|[1011-在 D 天内送达包裹的能力](https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days)|🟨|`贪心` `数组` `二分查找`|[Go](solutions/1011-在%20D%20天内送达包裹的能力/solution1.go)|
 |13|[0911-在线选举](https://leetcode-cn.com/problems/online-election)|🟨|`设计` `数组` `哈希表` `二分查找`||
-|14|[0875-爱吃香蕉的珂珂](https://leetcode-cn.com/problems/koko-eating-bananas)|🟨|`数组` `二分查找`||
+|14|[0875-爱吃香蕉的珂珂](https://leetcode-cn.com/problems/koko-eating-bananas)|🟨|`数组` `二分查找`|[Go](solutions/0875-爱吃香蕉的珂珂/solution1.go)|
 |15|[0327-区间和的个数](https://leetcode-cn.com/problems/count-of-range-sum)|🟥|`树状数组` `线段树` `数组` `二分查找` `分治` `有序集合` `归并排序`||
 
 
