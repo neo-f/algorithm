@@ -2,7 +2,7 @@
 
 > Generate Time: 2021-07-22	(Total Solved: 79)
 > + Python Solutions: 1
-> + Go Solutions: 74
+> + Go Solutions: 75
 ***
 ## Week1
 
@@ -106,7 +106,7 @@
 |4|[0215-数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array)|🟨|`数组` `分治` `快速选择` `排序` `堆（优先队列）`|[Go](solutions/0215-数组中的第K个最大元素/solution1.go)|
 |5|[0493-翻转对](https://leetcode-cn.com/problems/reverse-pairs)|🟥|`树状数组` `线段树` `数组` `二分查找` `分治` `有序集合` `归并排序`||
 |6|[0322-零钱兑换](https://leetcode-cn.com/problems/coin-change)|🟨|`广度优先搜索` `数组` `动态规划`||
-|7|[0860-柠檬水找零](https://leetcode-cn.com/problems/lemonade-change)|🟩|`贪心` `数组`||
+|7|[0860-柠檬水找零](https://leetcode-cn.com/problems/lemonade-change)|🟩|`贪心` `数组`|[Go](solutions/0860-柠檬水找零/solutions1.go)|
 |8|[0455-分发饼干](https://leetcode-cn.com/problems/assign-cookies)|🟩|`贪心` `数组` `排序`||
 |9|[0122-买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii)|🟩|`贪心` `数组` `动态规划`||
 |10|[0045-跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii)|🟨|`贪心` `数组` `动态规划`||
