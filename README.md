@@ -2,7 +2,7 @@
 
 > Generate Time: 2021-07-30	(Problems : 102)
 > + Solutions(Python): 1
-> + Solutions(Go): 67
+> + Solutions(Go): 74
 ***
 ## Week1
 
@@ -105,7 +105,7 @@
 |3|[0056-合并区间](https://leetcode-cn.com/problems/merge-intervals)|🟨|`数组` `排序`|[Go](solutions/0056-合并区间/solution1.go)|
 |4|[0215-数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array)|🟨|`数组` `分治` `快速选择` `排序` `堆（优先队列）`|[Go](solutions/0215-数组中的第K个最大元素/solution1.go)|
 |5|[0493-翻转对](https://leetcode-cn.com/problems/reverse-pairs)|🟥|`树状数组` `线段树` `数组` `二分查找` `分治` `有序集合` `归并排序`||
-|6|[0322-零钱兑换](https://leetcode-cn.com/problems/coin-change)|🟨|`广度优先搜索` `数组` `动态规划`||
+|6|[0322-零钱兑换](https://leetcode-cn.com/problems/coin-change)|🟨|`广度优先搜索` `数组` `动态规划`|[Go-1](solutions/0322-零钱兑换/solutions1.go) [Go-2](solutions/0322-零钱兑换/solutions2.go)|
 |7|[0860-柠檬水找零](https://leetcode-cn.com/problems/lemonade-change)|🟩|`贪心` `数组`|[Go](solutions/0860-柠檬水找零/solutions1.go)|
 |8|[0455-分发饼干](https://leetcode-cn.com/problems/assign-cookies)|🟩|`贪心` `数组` `排序`||
 |9|[0122-买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii)|🟩|`贪心` `数组` `动态规划`||
@@ -122,10 +122,10 @@
 
 |No.|题目|难度|Tags|Solutions|
 |---|---|---|---|---|
-|1|[0322-零钱兑换](https://leetcode-cn.com/problems/coin-change)|🟨|`广度优先搜索` `数组` `动态规划`||
-|2|[0063-不同路径 II](https://leetcode-cn.com/problems/unique-paths-ii)|🟨|`数组` `动态规划` `矩阵`||
-|3|[1143-最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence)|🟨|`字符串` `动态规划`||
-|4|[0300-最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence)|🟨|`数组` `二分查找` `动态规划`||
+|1|[0322-零钱兑换](https://leetcode-cn.com/problems/coin-change)|🟨|`广度优先搜索` `数组` `动态规划`|[Go-1](solutions/0322-零钱兑换/solutions1.go) [Go-2](solutions/0322-零钱兑换/solutions2.go)|
+|2|[0063-不同路径 II](https://leetcode-cn.com/problems/unique-paths-ii)|🟨|`数组` `动态规划` `矩阵`|[Go](solutions/0063-不同路径%20II/solutions1.go)|
+|3|[1143-最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence)|🟨|`字符串` `动态规划`|[Go](solutions/1143-最长公共子序列/solution1.go)|
+|4|[0300-最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence)|🟨|`数组` `二分查找` `动态规划`|[Go](solutions/0300-最长递增子序列/solutions1.go)|
 |5|[0053-最大子序和](https://leetcode-cn.com/problems/maximum-subarray)|🟩|`数组` `分治` `动态规划`|[Go](solutions/0053-最大子序和/solution1.go)|
 |6|[0152-乘积最大子数组](https://leetcode-cn.com/problems/maximum-product-subarray)|🟨|`数组` `动态规划`||
 |7|[0121-买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock)|🟩|`数组` `动态规划`||
