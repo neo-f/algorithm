@@ -1,8 +1,8 @@
 # Leetcode Solutions
 
-> Generate Time: 2021-07-22	(Total Solved: 79)
-> + Python Solutions: 1
-> + Go Solutions: 75
+> Generate Time: 2021-07-30	(Problems : 102)
+> + Solutions(Python): 1
+> + Solutions(Go): 67
 ***
 ## Week1
 
@@ -12,7 +12,7 @@
 |2|[0021-合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists)|🟩|`递归` `链表`|[Go](solutions/0021-合并两个有序链表/solution1.go)|
 |3|[0026-删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array)|🟩|`数组` `双指针`|[Go](solutions/0026-删除有序数组中的重复项/solution1.go)|
 |4|[0283-移动零](https://leetcode-cn.com/problems/move-zeroes)|🟩|`数组` `双指针`|[Go](solutions/0283-移动零/solution1.go)|
-|5|[0066-加一](https://leetcode-cn.com/problems/plus-one)|🟩|`数组` `数学`|[Go-1](solutions/0066-加一/solution1.go) [Go-2](solutions/0066-加一/solution2.go)|
+|5|[0066-加一](https://leetcode-cn.com/problems/plus-one)|🟩|`数组` `数学`|[Go](solutions/0066-加一/solution1.go)|
 |6|[0206-反转链表](https://leetcode-cn.com/problems/reverse-linked-list)|🟩|`递归` `链表`|[Go](solutions/0206-反转链表/solution1.go)|
 |7|[0020-有效的括号](https://leetcode-cn.com/problems/valid-parentheses)|🟩|`栈` `字符串`|[Go](solutions/0020-有效的括号/solution1.go)|
 |8|[0155-最小栈](https://leetcode-cn.com/problems/min-stack)|🟩|`栈` `设计`|[Go](solutions/0155-最小栈/solution1.go)|
@@ -62,20 +62,20 @@
 |No.|题目|难度|Tags|Solutions|
 |---|---|---|---|---|
 |1|[0106-从中序与后序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal)|🟨|`树` `数组` `哈希表` `分治` `二叉树`|[Go](solutions/0106-从中序与后序遍历序列构造二叉树/solution1.go)|
-|2|[0210-课程表 II](https://leetcode-cn.com/problems/course-schedule-ii)|🟨|`深度优先搜索` `广度优先搜索` `图` `拓扑排序`|[Go](solutions/0210-课程表%20II/solution1.go)|
-|3|[0130-被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions)|🟨|`深度优先搜索` `广度优先搜索` `并查集` `数组` `矩阵`|[Go](solutions/0130-被围绕的区域/solution1.go)|
+|2|[0210-课程表 II](https://leetcode-cn.com/problems/course-schedule-ii)|🟨|`深度优先搜索` `广度优先搜索` `图` `拓扑排序`||
+|3|[0130-被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions)|🟨|`深度优先搜索` `广度优先搜索` `并查集` `数组` `矩阵`||
 |4|[0094-二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal)|🟩|`栈` `树` `深度优先搜索` `二叉树`|[Go](solutions/0094-二叉树的中序遍历/solution1.go)|
 |5|[0589-N 叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal)|🟩|`栈` `树` `深度优先搜索`|[Go](solutions/0589-N%20叉树的前序遍历/solution1.go)|
 |6|[0429-N 叉树的层序遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal)|🟨|`树` `广度优先搜索`|[Go](solutions/0429-N%20叉树的层序遍历/solution1.go)|
 |7|[0297-二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree)|🟥|`树` `深度优先搜索` `广度优先搜索` `设计` `字符串` `二叉树`|[Go](solutions/0297-二叉树的序列化与反序列化/solution1.go)|
 |8|[0105-从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)|🟨|`树` `数组` `哈希表` `分治` `二叉树`|[Go](solutions/0105-从前序与中序遍历序列构造二叉树/solution1.go)|
-|9|[1245-树的直径](https://leetcode-cn.com/problems/tree-diameter)|🟨|`树` `深度优先搜索` `广度优先搜索`|[Go](solutions/1245-树的直径/solution1.go)|
+|9|[1245-树的直径](https://leetcode-cn.com/problems/tree-diameter)|🟨|`树` `深度优先搜索` `广度优先搜索`||
 |10|[0236-二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree)|🟨|`树` `深度优先搜索` `二叉树`|[Go](solutions/0236-二叉树的最近公共祖先/solution1.go)|
-|11|[0684-冗余连接](https://leetcode-cn.com/problems/redundant-connection)|🟨|`深度优先搜索` `广度优先搜索` `并查集` `图`|[Go](solutions/0684-冗余连接/solution1.go)|
-|12|[0207-课程表](https://leetcode-cn.com/problems/course-schedule)|🟨|`深度优先搜索` `广度优先搜索` `图` `拓扑排序`|[Go](solutions/0207-课程表/solution1.go)|
-|13|[0017-电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number)|🟨|`哈希表` `字符串` `回溯`|[Go](solutions/0017-电话号码的字母组合/solution1.go)|
-|14|[0051-N 皇后](https://leetcode-cn.com/problems/n-queens)|🟥|`数组` `回溯`|[Go](solutions/0051-N%20皇后/solution1.go)|
-|15|[0200-岛屿数量](https://leetcode-cn.com/problems/number-of-islands)|🟨|`深度优先搜索` `广度优先搜索` `并查集` `数组` `矩阵`|[Go](solutions/0200-岛屿数量/solution1.go)|
+|11|[0684-冗余连接](https://leetcode-cn.com/problems/redundant-connection)|🟨|`深度优先搜索` `广度优先搜索` `并查集` `图`||
+|12|[0207-课程表](https://leetcode-cn.com/problems/course-schedule)|🟨|`深度优先搜索` `广度优先搜索` `图` `拓扑排序`||
+|13|[0017-电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number)|🟨|`哈希表` `字符串` `回溯`||
+|14|[0051-N 皇后](https://leetcode-cn.com/problems/n-queens)|🟥|`数组` `回溯`||
+|15|[0200-岛屿数量](https://leetcode-cn.com/problems/number-of-islands)|🟨|`深度优先搜索` `广度优先搜索` `并查集` `数组` `矩阵`||
 |16|[0433-最小基因变化](https://leetcode-cn.com/problems/minimum-genetic-mutation)|🟨|`广度优先搜索` `哈希表` `字符串`|[Go](solutions/0433-最小基因变化/solution1.go)|
 |17|[0329-矩阵中的最长递增路径](https://leetcode-cn.com/problems/longest-increasing-path-in-a-matrix)|🟥|`深度优先搜索` `广度优先搜索` `图` `拓扑排序` `记忆化搜索` `动态规划`|[Go](solutions/0329-矩阵中的最长递增路径/solution1.go)|
 
@@ -115,5 +115,35 @@
 |13|[0911-在线选举](https://leetcode-cn.com/problems/online-election)|🟨|`设计` `数组` `哈希表` `二分查找`||
 |14|[0875-爱吃香蕉的珂珂](https://leetcode-cn.com/problems/koko-eating-bananas)|🟨|`数组` `二分查找`|[Go](solutions/0875-爱吃香蕉的珂珂/solution1.go)|
 |15|[0327-区间和的个数](https://leetcode-cn.com/problems/count-of-range-sum)|🟥|`树状数组` `线段树` `数组` `二分查找` `分治` `有序集合` `归并排序`||
+
+
+***
+## Week6
+
+|No.|题目|难度|Tags|Solutions|
+|---|---|---|---|---|
+|1|[0322-零钱兑换](https://leetcode-cn.com/problems/coin-change)|🟨|`广度优先搜索` `数组` `动态规划`||
+|2|[0063-不同路径 II](https://leetcode-cn.com/problems/unique-paths-ii)|🟨|`数组` `动态规划` `矩阵`||
+|3|[1143-最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence)|🟨|`字符串` `动态规划`||
+|4|[0300-最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence)|🟨|`数组` `二分查找` `动态规划`||
+|5|[0053-最大子序和](https://leetcode-cn.com/problems/maximum-subarray)|🟩|`数组` `分治` `动态规划`|[Go](solutions/0053-最大子序和/solution1.go)|
+|6|[0152-乘积最大子数组](https://leetcode-cn.com/problems/maximum-product-subarray)|🟨|`数组` `动态规划`||
+|7|[0121-买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock)|🟩|`数组` `动态规划`||
+|8|[0122-买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii)|🟩|`贪心` `数组` `动态规划`||
+|9|[0123-买卖股票的最佳时机 III](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii)|🟥|`数组` `动态规划`||
+|10|[0188-买卖股票的最佳时机 IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv)|🟥|`数组` `动态规划`||
+|11|[0714-买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee)|🟨|`贪心` `数组` `动态规划`||
+|12|[0309-最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown)|🟨|`数组` `动态规划`||
+|13|[0198-打家劫舍](https://leetcode-cn.com/problems/house-robber)|🟨|`数组` `动态规划`||
+|14|[0213-打家劫舍 II](https://leetcode-cn.com/problems/house-robber-ii)|🟨|`数组` `动态规划`||
+|15|[0072-编辑距离](https://leetcode-cn.com/problems/edit-distance)|🟥|`字符串` `动态规划`||
+|16|[0416-分割等和子集](https://leetcode-cn.com/problems/partition-equal-subset-sum)|🟨|`数组` `动态规划`||
+|17|[0518-零钱兑换 II](https://leetcode-cn.com/problems/coin-change-2)|🟨|`数组` `动态规划`||
+|18|[0070-爬楼梯](https://leetcode-cn.com/problems/climbing-stairs)|🟩|`记忆化搜索` `数学` `动态规划`||
+|19|[0120-三角形最小路径和](https://leetcode-cn.com/problems/triangle)|🟨|`数组` `动态规划`||
+|20|[0673-最长递增子序列的个数](https://leetcode-cn.com/problems/number-of-longest-increasing-subsequence)|🟨|`树状数组` `线段树` `数组` `动态规划`||
+|21|[0279-完全平方数](https://leetcode-cn.com/problems/perfect-squares)|🟨|`广度优先搜索` `数学` `动态规划`||
+|22|[0055-跳跃游戏](https://leetcode-cn.com/problems/jump-game)|🟨|`贪心` `数组` `动态规划`||
+|23|[0045-跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii)|🟨|`贪心` `数组` `动态规划`||
 
 
