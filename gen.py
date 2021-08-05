@@ -27,7 +27,7 @@ class Item:
     title: str
     slug: str
     tags: List[str]
-    diffcult: str
+    difficulty: str
     solutions_dir: str
 
 
@@ -47,7 +47,7 @@ def _parse_week(nums: str) -> List[Item]:
                 title=f"{qid}-{q['title']}",
                 slug=q["slug"],
                 tags=q["tags"],
-                diffcult=q["difficulty"],
+                difficulty=q["difficulty"],
                 solutions_dir=folder,
             )
         )
@@ -82,7 +82,7 @@ def _gen_week(week: str, items: List[Item]) -> str:
         line.append(str(idx))
         link = f"[{item.title}](https://leetcode-cn.com/problems/{item.slug})"
         line.append(link)
-        line.append(f"{DIFFICULTY[item.diffcult]}")
+        line.append(f"{DIFFICULTY[item.difficulty]}")
         line.append(" ".join([f"`{t}`" for t in item.tags]))
         line.append(_gen_solutions_str(item.solutions_dir))
         ret += f"|{'|'.join(line)}|\n"
