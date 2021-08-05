@@ -1,8 +1,8 @@
 # Leetcode Solutions
 
-> Generate Time: 2021-08-05	(Problems : 107)
+> Generate Time: 2021-08-05	(Problems : 109)
 > + Solutions(Python): 1
-> + Solutions(Go): 80
+> + Solutions(Go): 83
 ***
 ## Week1
 
@@ -157,5 +157,7 @@
 |3|[0312-戳气球](https://leetcode-cn.com/problems/burst-balloons)|🟥|`数组` `动态规划`||
 |4|[0918-环形子数组的最大和](https://leetcode-cn.com/problems/maximum-sum-circular-subarray)|🟨|`队列` `数组` `分治` `动态规划` `单调队列`|[Go](solutions/0918-环形子数组的最大和/solutions1.go)|
 |5|[0300-最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence)|🟨|`数组` `二分查找` `动态规划`|[Go](solutions/0300-最长递增子序列/solutions1.go)|
+|6|[0684-冗余连接](https://leetcode-cn.com/problems/redundant-connection)|🟨|`深度优先搜索` `广度优先搜索` `并查集` `图`|[Go-1](solutions/0684-冗余连接/solution1.go) [Go-2](solutions/0684-冗余连接/solution2.go)|
+|7|[0200-岛屿数量](https://leetcode-cn.com/problems/number-of-islands)|🟨|`深度优先搜索` `广度优先搜索` `并查集` `数组` `矩阵`|[Go](solutions/0200-岛屿数量/solutions1.go)|
 
 
