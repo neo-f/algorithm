@@ -4,7 +4,7 @@ func numIslands(grid [][]byte) int {
 	m, n := len(grid), len(grid[0])
 	disjointSet := make([]int, n*m+1)
 	idx := func(i, j int) int {
-		return i*len(grid[0]) + j
+		return i*n + j
 	}
 	for i := 0; i < m; i++ {
 		for j := 0; j < n; j++ {
