@@ -1,8 +1,8 @@
 # Leetcode Solutions
 
-> Generate Time: 2021-07-30	(Problems : 102)
+> Generate Time: 2021-08-05	(Problems : 107)
 > + Solutions(Python): 1
-> + Solutions(Go): 74
+> + Solutions(Go): 80
 ***
 ## Week1
 
@@ -71,11 +71,11 @@
 |8|[0105-从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)|🟨|`树` `数组` `哈希表` `分治` `二叉树`|[Go](solutions/0105-从前序与中序遍历序列构造二叉树/solution1.go)|
 |9|[1245-树的直径](https://leetcode-cn.com/problems/tree-diameter)|🟨|`树` `深度优先搜索` `广度优先搜索`||
 |10|[0236-二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree)|🟨|`树` `深度优先搜索` `二叉树`|[Go](solutions/0236-二叉树的最近公共祖先/solution1.go)|
-|11|[0684-冗余连接](https://leetcode-cn.com/problems/redundant-connection)|🟨|`深度优先搜索` `广度优先搜索` `并查集` `图`||
+|11|[0684-冗余连接](https://leetcode-cn.com/problems/redundant-connection)|🟨|`深度优先搜索` `广度优先搜索` `并查集` `图`|[Go-1](solutions/0684-冗余连接/solution1.go) [Go-2](solutions/0684-冗余连接/solution2.go)|
 |12|[0207-课程表](https://leetcode-cn.com/problems/course-schedule)|🟨|`深度优先搜索` `广度优先搜索` `图` `拓扑排序`||
 |13|[0017-电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number)|🟨|`哈希表` `字符串` `回溯`||
 |14|[0051-N 皇后](https://leetcode-cn.com/problems/n-queens)|🟥|`数组` `回溯`||
-|15|[0200-岛屿数量](https://leetcode-cn.com/problems/number-of-islands)|🟨|`深度优先搜索` `广度优先搜索` `并查集` `数组` `矩阵`||
+|15|[0200-岛屿数量](https://leetcode-cn.com/problems/number-of-islands)|🟨|`深度优先搜索` `广度优先搜索` `并查集` `数组` `矩阵`|[Go](solutions/0200-岛屿数量/solutions1.go)|
 |16|[0433-最小基因变化](https://leetcode-cn.com/problems/minimum-genetic-mutation)|🟨|`广度优先搜索` `哈希表` `字符串`|[Go](solutions/0433-最小基因变化/solution1.go)|
 |17|[0329-矩阵中的最长递增路径](https://leetcode-cn.com/problems/longest-increasing-path-in-a-matrix)|🟥|`深度优先搜索` `广度优先搜索` `图` `拓扑排序` `记忆化搜索` `动态规划`|[Go](solutions/0329-矩阵中的最长递增路径/solution1.go)|
 
@@ -145,5 +145,17 @@
 |21|[0279-完全平方数](https://leetcode-cn.com/problems/perfect-squares)|🟨|`广度优先搜索` `数学` `动态规划`||
 |22|[0055-跳跃游戏](https://leetcode-cn.com/problems/jump-game)|🟨|`贪心` `数组` `动态规划`||
 |23|[0045-跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii)|🟨|`贪心` `数组` `动态规划`||
+
+
+***
+## Week7
+
+|No.|题目|难度|Tags|Solutions|
+|---|---|---|---|---|
+|1|[1499-满足不等式的最大值](https://leetcode-cn.com/problems/max-value-of-equation)|🟥|`队列` `数组` `滑动窗口` `单调队列` `堆（优先队列）`|[Go](solutions/1499-满足不等式的最大值/solutions1.go)|
+|2|[1000-合并石头的最低成本](https://leetcode-cn.com/problems/minimum-cost-to-merge-stones)|🟥|`数组` `动态规划`||
+|3|[0312-戳气球](https://leetcode-cn.com/problems/burst-balloons)|🟥|`数组` `动态规划`||
+|4|[0918-环形子数组的最大和](https://leetcode-cn.com/problems/maximum-sum-circular-subarray)|🟨|`队列` `数组` `分治` `动态规划` `单调队列`|[Go](solutions/0918-环形子数组的最大和/solutions1.go)|
+|5|[0300-最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence)|🟨|`数组` `二分查找` `动态规划`|[Go](solutions/0300-最长递增子序列/solutions1.go)|
 
 

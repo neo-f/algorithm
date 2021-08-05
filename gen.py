@@ -1,8 +1,8 @@
-from dataclasses import dataclass
-import os
-from typing import List
-import json
 import datetime
+import json
+import os
+from dataclasses import dataclass
+from typing import List
 
 GROUPS = dict(
     week1="88,21,26,283,66,206,20,155,150,641,141,227,560,25,1248,304,1109,53,"
@@ -13,6 +13,7 @@ GROUPS = dict(
     week5="912,1122,56,215,493,322,860,455,122,45,1665,1011,911,875,327",
     week6="322,63,1143,300,53,152,121,122,123,188,714,309,198,213,72,416,518,"
     + "70,120,673,279,55,45",
+    week7="1499,1000,312,918,300"
 )
 
 TITLE = "# Leetcode Solutions\n\n"
