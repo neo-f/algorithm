@@ -2,7 +2,7 @@ package main
 
 import "math"
 
-func coinChange(coins []int, amount int) int {
+func coinChange2(coins []int, amount int) int {
 	status := make([]int, amount+1)
 	for i := range status {
 		status[i] = -1
@@ -32,9 +32,3 @@ func coinChange(coins []int, amount int) int {
 	return v
 }
 
-func min(a, b int) int {
-	if a < b {
-		return a
-	}
-	return b
-}

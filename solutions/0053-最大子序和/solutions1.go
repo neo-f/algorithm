@@ -2,8 +2,8 @@ package week12
 
 import "math"
 
-//https://leetcode-cn.com/problems/maximum-subarray/
 
+// 前缀和数组
 func maxSubArray(nums []int) int {
 	acc := make([]int, len(nums)+1)
 
@@ -14,19 +14,19 @@ func maxSubArray(nums []int) int {
 	preMin := acc[0]
 	for r := 1; r <= len(nums); r++ {
 		// 最大值 -> acc[r] - acc[l] 最大 -> acc[l] 最小
-		ans = maxInt(ans, acc[r]-preMin)
-		preMin = minInt(preMin, acc[r])
+		ans = max(ans, acc[r]-preMin)
+		preMin = min(preMin, acc[r])
 	}
 	return ans
 }
 
-func maxInt(i, j int) int {
+func max(i, j int) int {
 	if i > j {
 		return i
 	}
 	return j
 }
-func minInt(i, j int) int {
+func min(i, j int) int {
 	if i > j {
 		return j
 	}

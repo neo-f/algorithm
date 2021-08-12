@@ -1,8 +1,8 @@
 # Leetcode Solutions
 
-> Generate Time: 2021-08-12	(Problems : 123)
+> Generate Time: 2021-08-13	(Problems : 123)
 > + Solutions(Python): 1
-> + Solutions(Go): 95
+> + Solutions(Go): 97
 ***
 ## Week1
 > 数组、链表、栈、队列、前缀和、差分、双指针扫描
@@ -26,7 +26,7 @@
 |15|[1248-统计「优美子数组」](https://leetcode-cn.com/problems/count-number-of-nice-subarrays)|🟨|`数组` `哈希表` `数学` `滑动窗口`|[Go](solutions/1248-统计「优美子数组」/solution1.go)|
 |16|[0304-二维区域和检索 - 矩阵不可变](https://leetcode-cn.com/problems/range-sum-query-2d-immutable)|🟨|`设计` `数组` `矩阵` `前缀和`|[Go](solutions/0304-二维区域和检索%20-%20矩阵不可变/solution1.go)|
 |17|[1109-航班预订统计](https://leetcode-cn.com/problems/corporate-flight-bookings)|🟨|`数组` `前缀和`|[Go](solutions/1109-航班预订统计/solution1.go)|
-|18|[0053-最大子序和](https://leetcode-cn.com/problems/maximum-subarray)|🟩|`数组` `分治` `动态规划`|[Go](solutions/0053-最大子序和/solution1.go)|
+|18|[0053-最大子序和](https://leetcode-cn.com/problems/maximum-subarray)|🟩|`数组` `分治` `动态规划`|[Go-1](solutions/0053-最大子序和/solutions1.go) [Go-2](solutions/0053-最大子序和/solutions2.go)|
 |19|[0001-两数之和](https://leetcode-cn.com/problems/two-sum)|🟩|`数组` `哈希表`|[Go](solutions/0001-两数之和/solution1.go)|
 |20|[0167-两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted)|🟩|`数组` `双指针` `二分查找`|[Go](solutions/0167-两数之和%20II%20-%20输入有序数组/solution1.go)|
 |21|[0015-三数之和](https://leetcode-cn.com/problems/3sum)|🟨|`数组` `双指针` `排序`|[Go](solutions/0015-三数之和/solution1.go)|
@@ -132,7 +132,7 @@
 |2|[0063-不同路径 II](https://leetcode-cn.com/problems/unique-paths-ii)|🟨|`数组` `动态规划` `矩阵`|[Go](solutions/0063-不同路径%20II/solutions1.go)|
 |3|[1143-最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence)|🟨|`字符串` `动态规划`|[Go](solutions/1143-最长公共子序列/solution1.go)|
 |4|[0300-最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence)|🟨|`数组` `二分查找` `动态规划`|[Go](solutions/0300-最长递增子序列/solutions1.go)|
-|5|[0053-最大子序和](https://leetcode-cn.com/problems/maximum-subarray)|🟩|`数组` `分治` `动态规划`|[Go](solutions/0053-最大子序和/solution1.go)|
+|5|[0053-最大子序和](https://leetcode-cn.com/problems/maximum-subarray)|🟩|`数组` `分治` `动态规划`|[Go-1](solutions/0053-最大子序和/solutions1.go) [Go-2](solutions/0053-最大子序和/solutions2.go)|
 |6|[0152-乘积最大子数组](https://leetcode-cn.com/problems/maximum-product-subarray)|🟨|`数组` `动态规划`||
 |7|[0121-买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock)|🟩|`数组` `动态规划`||
 |8|[0122-买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii)|🟩|`贪心` `数组` `动态规划`||
