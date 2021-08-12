@@ -1,8 +1,8 @@
 # Leetcode Solutions
 
-> Generate Time: 2021-08-05	(Problems : 109)
+> Generate Time: 2021-08-12	(Problems : 123)
 > + Solutions(Python): 1
-> + Solutions(Go): 83
+> + Solutions(Go): 94
 ***
 ## Week1
 > 数组、链表、栈、队列、前缀和、差分、双指针扫描
@@ -166,5 +166,27 @@
 |5|[0300-最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence)|🟨|`数组` `二分查找` `动态规划`|[Go](solutions/0300-最长递增子序列/solutions1.go)|
 |6|[0684-冗余连接](https://leetcode-cn.com/problems/redundant-connection)|🟨|`深度优先搜索` `广度优先搜索` `并查集` `图`|[Go-1](solutions/0684-冗余连接/solution1.go) [Go-2](solutions/0684-冗余连接/solution2.go)|
 |7|[0200-岛屿数量](https://leetcode-cn.com/problems/number-of-islands)|🟨|`深度优先搜索` `广度优先搜索` `并查集` `数组` `矩阵`|[Go](solutions/0200-岛屿数量/solutions1.go)|
+
+
+***
+## Week8
+> 图论算法、字符串处理
+
+|No.|题目|难度|Tags|Solutions|
+|---|---|---|---|---|
+|1|[0709-转换成小写字母](https://leetcode-cn.com/problems/to-lower-case)|🟩|`字符串`|[Go](solutions/0709-转换成小写字母/solutions1.go)|
+|2|[0058-最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word)|🟩|`字符串`|[Go](solutions/0058-最后一个单词的长度/solutions1.go)|
+|3|[0771-宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones)|🟩|`哈希表` `字符串`|[Go](solutions/0771-宝石与石头/solutions1.go)|
+|4|[0387-字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string)|🟩|`队列` `哈希表` `字符串` `计数`|[Go](solutions/0387-字符串中的第一个唯一字符/solutions1.go)|
+|5|[0014-最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix)|🟩|`字符串`|[Go](solutions/0014-最长公共前缀/solutions1.go)|
+|6|[0344-反转字符串](https://leetcode-cn.com/problems/reverse-string)|🟩|`递归` `双指针` `字符串`|[Go](solutions/0344-反转字符串/solutions1.go)|
+|7|[0151-翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string)|🟨|`双指针` `字符串`|[Go](solutions/0151-翻转字符串里的单词/solutions1.go)|
+|8|[0917-仅仅反转字母](https://leetcode-cn.com/problems/reverse-only-letters)|🟩|`双指针` `字符串`|[Go](solutions/0917-仅仅反转字母/solutions1.go)|
+|9|[0205-同构字符串](https://leetcode-cn.com/problems/isomorphic-strings)|🟩|`哈希表` `字符串`|[Go](solutions/0205-同构字符串/solutions1.go)|
+|10|[0242-有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram)|🟩|`哈希表` `字符串` `排序`||
+|11|[0049-字母异位词分组](https://leetcode-cn.com/problems/group-anagrams)|🟨|`哈希表` `字符串` `排序`|[Go](solutions/0049-字母异位词分组/solution1.go)|
+|12|[0438-找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string)|🟨|`哈希表` `字符串` `滑动窗口`||
+|13|[0044-通配符匹配](https://leetcode-cn.com/problems/wildcard-matching)|🟥|`贪心` `递归` `字符串` `动态规划`||
+|14|[0008-字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi)|🟨|`字符串`|[Go](solutions/0008-字符串转换整数%20(atoi)/solutions1.go)|
 
 
