@@ -2,7 +2,7 @@
 
 > Generate Time: 2021-08-12	(Problems : 123)
 > + Solutions(Python): 1
-> + Solutions(Go): 94
+> + Solutions(Go): 95
 ***
 ## Week1
 > 数组、链表、栈、队列、前缀和、差分、双指针扫描
@@ -183,7 +183,7 @@
 |7|[0151-翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string)|🟨|`双指针` `字符串`|[Go](solutions/0151-翻转字符串里的单词/solutions1.go)|
 |8|[0917-仅仅反转字母](https://leetcode-cn.com/problems/reverse-only-letters)|🟩|`双指针` `字符串`|[Go](solutions/0917-仅仅反转字母/solutions1.go)|
 |9|[0205-同构字符串](https://leetcode-cn.com/problems/isomorphic-strings)|🟩|`哈希表` `字符串`|[Go](solutions/0205-同构字符串/solutions1.go)|
-|10|[0242-有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram)|🟩|`哈希表` `字符串` `排序`||
+|10|[0242-有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram)|🟩|`哈希表` `字符串` `排序`|[Go](solutions/0242-有效的字母异位词/solutions1.go)|
 |11|[0049-字母异位词分组](https://leetcode-cn.com/problems/group-anagrams)|🟨|`哈希表` `字符串` `排序`|[Go](solutions/0049-字母异位词分组/solution1.go)|
 |12|[0438-找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string)|🟨|`哈希表` `字符串` `滑动窗口`||
 |13|[0044-通配符匹配](https://leetcode-cn.com/problems/wildcard-matching)|🟥|`贪心` `递归` `字符串` `动态规划`||
