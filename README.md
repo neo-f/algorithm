@@ -1,8 +1,8 @@
 # Leetcode Solutions
 
-> Generate Time: 2021-08-13	(Problems : 123)
+> Generate Time: 2021-08-26	(Problems : 143)
 > + Solutions(Python): 1
-> + Solutions(Go): 97
+> + Solutions(Go): 101
 ***
 ## Week1
 > 数组、链表、栈、队列、前缀和、差分、双指针扫描
@@ -188,5 +188,41 @@
 |12|[0438-找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string)|🟨|`哈希表` `字符串` `滑动窗口`||
 |13|[0044-通配符匹配](https://leetcode-cn.com/problems/wildcard-matching)|🟥|`贪心` `递归` `字符串` `动态规划`||
 |14|[0008-字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi)|🟨|`字符串`|[Go](solutions/0008-字符串转换整数%20(atoi)/solutions1.go)|
+
+
+***
+## Week9
+> 高级搜索、平衡二叉树、跳跃表
+
+|No.|题目|难度|Tags|Solutions|
+|---|---|---|---|---|
+|1|[1091-二进制矩阵中的最短路径](https://leetcode-cn.com/problems/shortest-path-in-binary-matrix)|🟨|`广度优先搜索` `数组` `矩阵`||
+|2|[1206-设计跳表](https://leetcode-cn.com/problems/design-skiplist)|🟥|`设计` `链表`||
+|3|[0022-括号生成](https://leetcode-cn.com/problems/generate-parentheses)|🟨|`字符串` `动态规划` `回溯`|[Go](solutions/0022-括号生成/solution1.go)|
+|4|[0051-N 皇后](https://leetcode-cn.com/problems/n-queens)|🟥|`数组` `回溯`||
+|5|[0036-有效的数独](https://leetcode-cn.com/problems/valid-sudoku)|🟨|`数组` `哈希表` `矩阵`||
+|6|[0037-解数独](https://leetcode-cn.com/problems/sudoku-solver)|🟥|`数组` `回溯` `矩阵`||
+|7|[0127-单词接龙](https://leetcode-cn.com/problems/word-ladder)|🟥|`广度优先搜索` `哈希表` `字符串`||
+|8|[0773-滑动谜题](https://leetcode-cn.com/problems/sliding-puzzle)|🟥|`广度优先搜索` `数组` `矩阵`||
+
+
+***
+## Week10
+> 树状数组、线段树
+
+|No.|题目|难度|Tags|Solutions|
+|---|---|---|---|---|
+|1|[0699-掉落的方块](https://leetcode-cn.com/problems/falling-squares)|🟥|`线段树` `数组` `有序集合`|[Go](solutions/0699-掉落的方块/solutions1.go)|
+|2|[0307-区域和检索 - 数组可修改](https://leetcode-cn.com/problems/range-sum-query-mutable)|🟨|`设计` `树状数组` `线段树` `数组`|[Go](solutions/0307-区域和检索%20-%20数组可修改/solutions1.go)|
+|3|[0327-区间和的个数](https://leetcode-cn.com/problems/count-of-range-sum)|🟥|`树状数组` `线段树` `数组` `二分查找` `分治` `有序集合` `归并排序`||
+|4|[0191-位1的个数](https://leetcode-cn.com/problems/number-of-1-bits)|🟩|`位运算`||
+|5|[0231-2 的幂](https://leetcode-cn.com/problems/power-of-two)|🟩|`位运算` `递归` `数学`||
+|6|[0190-颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits)|🟩|`位运算` `分治`||
+|7|[0338-比特位计数](https://leetcode-cn.com/problems/counting-bits)|🟩|`位运算` `动态规划`||
+|8|[0050-Pow(x, n)](https://leetcode-cn.com/problems/powx-n)|🟨|`递归` `数学`|[Go](solutions/0050-Pow(x,%20n)/solution1.go)|
+|9|[0051-N 皇后](https://leetcode-cn.com/problems/n-queens)|🟥|`数组` `回溯`||
+|10|[0037-解数独](https://leetcode-cn.com/problems/sudoku-solver)|🟥|`数组` `回溯` `矩阵`||
+|11|[0218-天际线问题](https://leetcode-cn.com/problems/the-skyline-problem)|🟥|`树状数组` `线段树` `数组` `分治` `有序集合` `扫描线` `堆（优先队列）`||
+|12|[1851-包含每个查询的最小区间](https://leetcode-cn.com/problems/minimum-interval-to-include-each-query)|🟥|`数组` `二分查找` `排序` `扫描线` `堆（优先队列）`||
 
 
