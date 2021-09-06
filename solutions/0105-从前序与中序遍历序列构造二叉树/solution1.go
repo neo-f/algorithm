@@ -1,6 +1,9 @@
 package week31
 
-import . "algorithm-go/utils"
+type TreeNode struct {
+	Left, Right *TreeNode
+	Val         int
+}
 
 // https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
 func buildTree1(preorder []int, inorder []int) *TreeNode {

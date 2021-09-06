@@ -1,9 +1,20 @@
 package week21
 
 import (
-	. "algorithm-go/utils"
 	"math"
 )
+
+type TreeNode struct {
+	Left, Right *TreeNode
+	Val         int
+}
+
+func MaxInt(a, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}
 
 func maxDepth(root *TreeNode) int {
 	ans := math.MinInt64

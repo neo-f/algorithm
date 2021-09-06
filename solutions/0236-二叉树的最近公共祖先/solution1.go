@@ -1,6 +1,9 @@
 package week31
 
-import . "algorithm-go/utils"
+type TreeNode struct {
+	Left, Right *TreeNode
+	Val         int
+}
 
 // https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/
 func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {

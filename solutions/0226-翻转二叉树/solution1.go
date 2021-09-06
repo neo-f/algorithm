@@ -1,6 +1,9 @@
 package week21
 
-import . "algorithm-go/utils"
+type TreeNode struct {
+	Left, Right *TreeNode
+	Val         int
+}
 
 func invertTree(root *TreeNode) *TreeNode {
 	var invert func(root *TreeNode)
