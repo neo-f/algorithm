@@ -1,6 +1,9 @@
 package week11
 
-import . "algorithm-go/utils"
+type ListNode struct {
+	Next *ListNode
+	Val  int
+}
 
 // 141. 环形链表 https://leetcode-cn.com/problems/linked-list-cycle/
 func hasCycle(head *ListNode) bool {

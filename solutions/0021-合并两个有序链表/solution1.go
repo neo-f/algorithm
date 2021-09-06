@@ -1,6 +1,9 @@
 package _1_合并两个有序链表
 
-import . "algorithm-go/utils"
+type ListNode struct {
+	Next *ListNode
+	Val  int
+}
 
 // 21. 合并两个有序链表 https://leetcode-cn.com/problems/merge-two-sorted-lists/
 // 输入：l1 = [1,2,4], l2 = [1,3,4]
